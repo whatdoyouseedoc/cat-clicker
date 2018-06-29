@@ -1,0 +1,44 @@
+* {
+    font-family: 'Open Sans';
+}
+
+.container {
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid #00aab7;
+    background: rgba(0, 170, 183, .3);
+    min-width: 500px;
+    min-height: 340px;
+}
+
+.cats-list {
+    list-style-type: none;
+}
+
+.cats-list .item {
+    cursor: pointer;
+}
+
+.current-cat {
+
+}
+
+.current-cat figure {
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    font-size: 14px;
+}
+
+.current-cat figure img {
+    cursor: pointer;
+}
+
+.counter {
+    padding-left: 10px;
+}
