@@ -13,6 +13,22 @@
         <ul id="cats-list" class="cats-list"></ul>
 
         <div id="current-cat"class="current-cat"></div>
+
+        <div class="admin-area">
+            <div>
+                <button id="admin-button">Admin</button>
+            </div>
+
+            <div class="admin">
+                <form id="admin-form" class="admin-form" onsubmit="return false;">
+                    <div>Name: <input type="text" name="name"></div>
+                    <div>URL: <input type="text" name="url"></div>
+                    <div>Clicks: <input type="text" name="counter"></div>
+                    <div><input type="button" value="Cancel" onclick="octopus.toggleAdmin()"></div>
+                    <div><input type="button" value="Save" onclick="octopus.save()"></div>
+                </form>
+            </div>
+        </div>
     </div>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>

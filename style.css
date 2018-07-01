@@ -42,3 +42,7 @@
 .counter {
     padding-left: 10px;
 }
+
+.admin-form {
+    display: none;
+}
